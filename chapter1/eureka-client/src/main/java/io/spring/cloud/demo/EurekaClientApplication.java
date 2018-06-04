@@ -28,4 +28,9 @@ public class EurekaClientApplication {
 	public String test() {
 		return "Test";
 	}
+
+	@RequestMapping("/test2")
+	public String test2() {
+		return "Test";
+	}
 }
